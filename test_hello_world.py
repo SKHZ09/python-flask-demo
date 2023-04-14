@@ -16,5 +16,5 @@ class TestHelloWorld(unittest.TestCase):
         with self.assertRaises(TypeError):
             string_to_test.split(2)
 
-if name == 'main':
+if __name__ == '__main__':
     unittest.main()
